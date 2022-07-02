@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" type="image/x-icon" href="food.png" style="">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Food</title>
+	<style>
+		header{
+			text-align: center;
+			font-family: rigatoni;
+			background-color: green;
+		}
+		nav{
+			background-image: url(nav.jpg);
+			padding-top: 10px;
+			background-size: cover;
+			width: 100%;
+			height: 60px;
+			align-items: center;	
+		}
+		body{
+			background-image:url(back5.jpg);
+			height: 100%;
+		}
+		li{
+			width: 20%;float: left;
+			padding: 10px;
+			padding-left: 35px;
+		}
+		a:hover{
+			color: brown;
+			background-color: transparent;
+			text-decoration: underline overline;
+		}
+		a{
+			text-decoration: none;
+			color: red;
+			padding-left: 10px;
+		}
+
+	</style>
+</head>
+<body>
+	<header>
+		<h1> Please enter the information below</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="home.html">HOME</a></li>
+            <li><a href="foods.html">FOODS</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+		</ul>
+	</nav>
+	<form action="home.html" method="post">
+		<fieldset style="text-align: center;margin-right: 550px;margin-left: 550px;background-image: url(b.jpg);background-size: cover;padding-bottom: 100px;">
+			<legend>sign in</legend>
+			<label for="n">Username</label>
+			<input type="text" id="n" name="name" placeholder="Enter name"><br><br>
+			<label for="p">Password</label>
+			<input type="password" id="p" name="password" placeholder="Password"><br><br>
+			<button type="submit">submit</button>
+		</fieldset>
+	</form>
+
+</body>
+</html>
